@@ -20,6 +20,6 @@ Read API Lambda
 Dashboard
 
 
-To run locally: 
+## To run locally: 
 pip install -r requirements.txt
 streamlit run dashboard/app.py
