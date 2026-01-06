@@ -7,17 +7,7 @@
 - Python
 
 ## Architecture Overview:
-Alpha Vantage API
-↓
-EventBridge 
-↓
-Ingestion Lambda
-↓
-DynamoDB
-↓
-Read API Lambda 
-↓
-Dashboard
+Alpha Vantage API --> EventBridge --> Ingestion Lambda --> DynamoDB --> Read API Lambda --> Dashboard
 
 
 ## To run locally: 
