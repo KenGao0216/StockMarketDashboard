@@ -11,5 +11,5 @@ Alpha Vantage API --> EventBridge --> Ingestion Lambda --> DynamoDB --> Read API
 
 
 ## To run locally: 
-pip install -r requirements.txt
-streamlit run dashboard/app.py
+- pip install -r requirements.txt
+- streamlit run dashboard/app.py
