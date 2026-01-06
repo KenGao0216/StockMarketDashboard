@@ -1,4 +1,4 @@
-## Tech Stack 
+## Tech Stack:
 - AWS Lambda
 - Amazon DynamoDB
 - Amazon EventBridge
@@ -6,7 +6,7 @@
 - CloudWatch (logging)
 - Python
 
-## Architecture Overview
+## Architecture Overview:
 Alpha Vantage API
 ↓
 EventBridge 
