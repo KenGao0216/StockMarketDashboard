@@ -76,7 +76,7 @@ try:
     st.divider()
 
     st.markdown('<div class="section-title">Price History</div>', unsafe_allow_html=True)
-
+    st.caption("Interact with chart to adjust scale")
     chart_data = [{"date": p.date, "close": p.close} for p in history.points]
     st.line_chart(chart_data, x="date", y="close", width='stretch')
 
